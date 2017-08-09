@@ -2,6 +2,7 @@ import React from 'react'
 
 import map from '../images/map.png'
 import sheets from '../images/sheets-logo.png'
+import sheets2x from '../images/sheets-logo@2x.png'
 
 class Section6 extends React.Component {
 
@@ -23,6 +24,7 @@ class Section6 extends React.Component {
       >
         <img
           src={sheets}
+          srcSet={sheets2x}
           alt="Sheets Logo"
           style={{
             margin: '0 auto',
