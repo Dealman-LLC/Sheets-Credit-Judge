@@ -47,6 +47,10 @@ const TemplateWrapper = ({ children }) =>
           content:
             'bad credit financing, car loan, auto financing, truck loan, west virginia car dealer',
         },
+        {
+          name: 'viewport',
+          content: 'width=device-width, initial-scale=1, user-scalable=no'
+        },
       ]}
     >
       <link rel="icon" type="image/png" href={favicon} />
