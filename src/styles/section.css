@@ -1,0 +1,13 @@
+.section {
+  background: #ffffff;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.section--background {
+  padding: 1.45rem 1.0875rem 1.45rem 1.0875rem;
+}
+
+.section--dark {
+  color: #FFFFFF
+}

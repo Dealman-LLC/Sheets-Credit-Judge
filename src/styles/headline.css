@@ -1,0 +1,45 @@
+.headline {
+  color: #FFFFFF;
+  text-align: justify;
+  margin-bottom: 2.5rem;
+}
+
+.headline__top {
+  font-size: 2.75rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.headline__bottom {
+  font-size: 3.25rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 480px) {
+   .headline {
+    text-align: justify;
+  }
+
+  .headline__top {
+    font-size: 2.5rem;
+  }
+
+  .headline__bottom {
+    font-size: 2.9rem
+  } 
+}
+
+@media screen and (max-width: 340px) {
+   .headline {
+    text-align: justify;
+  }
+
+  .headline__top {
+    font-size: 2rem;
+  }
+
+  .headline__bottom {
+    font-size: 2.35rem
+  } 
+}

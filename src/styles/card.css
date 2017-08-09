@@ -1,0 +1,27 @@
+.card {
+  text-align: center;
+  width: 230px;
+}
+
+.card>p {
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width: 680px) {
+  .card {
+    margin-top: 1.45rem;
+  }
+  
+  .card:first-child {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    width: 100%;
+  }
+  .card>p {
+    font-size: 1rem;
+  }
+}
