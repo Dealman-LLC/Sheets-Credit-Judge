@@ -22,6 +22,7 @@ class Section4 extends React.Component {
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
+      swipeToSlide: false,
       fade: true,
       autoplay: true,
     }
