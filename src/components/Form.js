@@ -45,7 +45,7 @@ function Form() {
       >
         <fieldset>
           <input type="text" name='Name' placeholder="Your Name" />
-          <input type="email" name='Email' placeholder="Your Email" />
+          <input type="email" name='_replyto' placeholder="Your Email" />
           <input type="phone" name="Phone" placeholder="Phone Number" />
         </fieldset>
         <label>
