@@ -8,6 +8,7 @@
     "gatsby-link": "^1.6.5",
     "gatsby-plugin-react-helmet": "^1.0.1",
     "react-player": "^0.20.0",
+    "react-scroll": "^1.5.4",
     "react-slick": "^0.14.11",
     "slick-carousel": "^1.7.1"
   },

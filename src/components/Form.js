@@ -7,6 +7,7 @@ import '../styles/form.css'
 function Form() {
   return (
     <div
+      id='lead-form'
       className='form--container'
       style={{
         background: 'rgba(0,0,0,0.75)',
@@ -38,16 +39,19 @@ function Form() {
         divTop="0.5rem"
         divBottom="0.5rem"
       />
-      <form action="#" className="form form--contact">
+      <form       action="https://formspree.io/creditjudge@dealman.net"
+      method="POST"
+      className="form form--contact"
+      >
         <fieldset>
-          <input type="text" placeholder="Your Name" />
-          <input type="email" placeholder="Your Email" />
-          <input type="phone" placeholder="Phone Number" />
+          <input type="text" name='Name' placeholder="Your Name" />
+          <input type="email" name='Email' placeholder="Your Email" />
+          <input type="phone" name="Phone" placeholder="Phone Number" />
         </fieldset>
         <label>
           Employment Status
           <select
-            name="employment-status"
+            name="Employment Status"
             id="employment"
             defaultValue="employed"
           >
@@ -61,7 +65,7 @@ function Form() {
         <label>
           Describe Your Case
           <textarea
-            name="description"
+            name="Description"
             id="form-description"
             cols="30"
             rows="4"

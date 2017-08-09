@@ -25,6 +25,7 @@ class Section1 extends React.Component {
         }}
       >
         <div
+          id='main-container'
           className='container container--row container--courtroom'
         >
           <div>

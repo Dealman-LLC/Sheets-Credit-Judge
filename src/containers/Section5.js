@@ -1,8 +1,12 @@
 import React from 'react'
+import Scroll from 'react-scroll'
 
 import behindBars from '../images/behind-bars.png'
 
+// const scroll = Scroll.animateScroll;
+
 class Section5 extends React.Component {
+  
   render() {
     return (
       <section
@@ -16,6 +20,7 @@ class Section5 extends React.Component {
         }}
       >
         <div
+          id='scrollContainer'
           className='container container--simple'
         >
           <h4
@@ -40,6 +45,12 @@ class Section5 extends React.Component {
             Bad Credit Behind Bars
           </h2>
           <button
+            onClick={() => Scroll.scroller.scrollTo('lead-form', {
+              delay: 100,
+              container: 'scrollContainer',
+              smooth: true,
+              duration: 500
+            })}
             type="button"
             style={{
               background: '#C0392B',

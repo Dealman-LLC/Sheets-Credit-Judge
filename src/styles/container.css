@@ -59,14 +59,14 @@ footer.container--column>div {
 }
 
 footer.container--column>div>div {
-  width: 35%;
+  width: 33.3%;
 }
 
 footer.container--column>div>div:only-child {
   width: initial;
 }
 
-.footer__social {
+footer.container--column>div>.footer__social {
   width: 155px;
   justify-content: space-between;
 }
@@ -76,7 +76,7 @@ footer.container--column>div>div:only-child {
     width: 95%;
   }
 
-  .footer__social {
+  footer.container--column>div>.footer__social {
     width: 100%;
     justify-content: space-around;
   }

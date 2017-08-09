@@ -18,7 +18,7 @@ class Section3 extends React.Component {
         className='container container--column'
           style={{
             justifyContent: 'space-between',
-            alignItems: 'center',
+            alignItems: 'stretch',
           }}
         >
           <div
