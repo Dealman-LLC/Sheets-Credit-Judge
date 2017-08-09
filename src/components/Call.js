@@ -34,6 +34,8 @@ function Call(props) {
           style={{
             fontSize: 32,
             fontWeight: 'bold',
+            textDecoration: 'none',
+            color: '#FFFFFF'
           }}
         >
           800.285.8993
