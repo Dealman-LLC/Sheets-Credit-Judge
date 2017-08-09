@@ -24,7 +24,8 @@ class Section6 extends React.Component {
       >
         <img
           src={sheets}
-          srcSet={sheets2x}
+          srcSet=`${sheets2x} 292w`
+          sizes=`(max-width: 480px) 292px`
           alt="Sheets Logo"
           style={{
             margin: '0 auto',
