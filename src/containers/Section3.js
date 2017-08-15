@@ -82,22 +82,6 @@ class Section3 extends React.Component {
                 Change in income? See how the Judge can help you lower your car
                 payment today.
               </p>
-              <button
-                type="button"
-                style={{
-                  background: '#C0392B',
-                  color: '#FFFFFF',
-                  width: '100%',
-                  fontSize: '0.8rem',
-                  fontWeight: 800,
-                  border: 'none',
-                  borderRadius: '5px',
-                  padding: '0.9rem 0 0.9rem 0',
-                  cursor: 'pointer',
-                }}
-              >
-                WATCH
-              </button>
             </div>
             <div
               className="card"
@@ -108,22 +92,6 @@ class Section3 extends React.Component {
                 Think your lack of credit will hurt your chances of owning a
                 car? Think again.
               </p>
-              <button
-                type="button"
-                style={{
-                  background: '#C0392B',
-                  color: '#FFFFFF',
-                  width: '100%',
-                  fontSize: '0.8rem',
-                  fontWeight: 800,
-                  border: 'none',
-                  borderRadius: '5px',
-                  padding: '0.9rem 0 0.9rem 0',
-                  cursor: 'pointer',
-                }}
-              >
-                WATCH
-              </button>
             </div>
             <div
               className="card"
@@ -134,22 +102,6 @@ class Section3 extends React.Component {
                 Is less than perfect credit history stopping you in your tracks?
                 Objection, your honor!
               </p>
-              <button
-                type="button"
-                style={{
-                  background: '#C0392B',
-                  color: '#FFFFFF',
-                  width: '100%',
-                  fontSize: '0.8rem',
-                  fontWeight: 800,
-                  border: 'none',
-                  borderRadius: '5px',
-                  padding: '0.9rem 0 0.9rem 0',
-                  cursor: 'pointer',
-                }}
-              >
-                WATCH
-              </button>
             </div>
           </div>
         </div>
