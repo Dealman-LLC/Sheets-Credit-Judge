@@ -3,4 +3,5 @@ module.exports = {
     title: `The Credit Judge`,
   },
   plugins: [`gatsby-plugin-react-helmet`],
+  pathPrefix: `/sheetscreditjudge`,
 }
